@@ -1,0 +1,7 @@
+version: "Apple Swift version 2.2-dev (LLVM 3ebdbb2c7e, Clang f66c5bb67b, Swift 42591f7cba)"
+options: "22c431224de9eda324c742b36b40b485"
+build_time: [509288890, 615130000]
+inputs:
+  "/Users/AJ/Spikes/Swift-Slack/Packages/Inquiline-0.2.2/Sources/Request.swift": [509288885, 0]
+  "/Users/AJ/Spikes/Swift-Slack/Packages/Inquiline-0.2.2/Sources/Response.swift": [509288885, 0]
+  "/Users/AJ/Spikes/Swift-Slack/Packages/Inquiline-0.2.2/Sources/Status.swift": [509288884, 0]

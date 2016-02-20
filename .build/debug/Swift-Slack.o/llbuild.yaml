@@ -1,0 +1,29 @@
+client:
+  name: swift-build
+
+tools: {}
+
+targets:
+  "": [<Swift-Slack>]
+  Swift-Slack: [<Swift-Slack>]
+
+commands:
+  <Swift-Slack-swiftc>:
+    tool: swift-compiler
+    executable: "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2016-01-11-a.xctoolchain/usr/bin/swiftc"
+    inputs: ["/Users/AJ/Spikes/Swift-Slack/Sources/fire.swift","/Users/AJ/Spikes/Swift-Slack/Sources/main.swift"]
+    outputs: ["<Swift-Slack-swiftc>","/Users/AJ/Spikes/Swift-Slack/.build/debug/SwiftSlack.swiftmodule","/Users/AJ/Spikes/Swift-Slack/.build/debug/Swift-Slack.o/Sources/fire.swift.o","/Users/AJ/Spikes/Swift-Slack/.build/debug/Swift-Slack.o/Sources/main.swift.o"]
+    module-name: "SwiftSlack"
+    module-output-path: "/Users/AJ/Spikes/Swift-Slack/.build/debug/SwiftSlack.swiftmodule"
+    is-library: false
+    sources: ["/Users/AJ/Spikes/Swift-Slack/Sources/fire.swift","/Users/AJ/Spikes/Swift-Slack/Sources/main.swift"]
+    objects: ["/Users/AJ/Spikes/Swift-Slack/.build/debug/Swift-Slack.o/Sources/fire.swift.o","/Users/AJ/Spikes/Swift-Slack/.build/debug/Swift-Slack.o/Sources/main.swift.o"]
+    import-paths: ["/Users/AJ/Spikes/Swift-Slack/.build/debug"]
+    temps-path: "/Users/AJ/Spikes/Swift-Slack/.build/debug/Swift-Slack.o/Swift-Slack"
+    other-args: ["-j8","-Onone","-g","-target","x86_64-apple-macosx10.10","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk","-I","/usr/local/include","-D","SWIFT_PACKAGE"]
+  <Swift-Slack>:
+    tool: shell
+    inputs: ["<Swift-Slack-swiftc>","/Users/AJ/Spikes/Swift-Slack/.build/debug/Swift-Slack.o/Sources/fire.swift.o","/Users/AJ/Spikes/Swift-Slack/.build/debug/Swift-Slack.o/Sources/main.swift.o","/Users/AJ/Spikes/Swift-Slack/.build/debug/Nest.a","/Users/AJ/Spikes/Swift-Slack/.build/debug/Inquiline.a","/Users/AJ/Spikes/Swift-Slack/.build/debug/Commander.a","/Users/AJ/Spikes/Swift-Slack/.build/debug/Curassow.a"]
+    outputs: ["<Swift-Slack>","/Users/AJ/Spikes/Swift-Slack/.build/debug/Swift-Slack"]
+    args: ["/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2016-01-11-a.xctoolchain/usr/bin/swiftc","-o","/Users/AJ/Spikes/Swift-Slack/.build/debug/Swift-Slack","/Users/AJ/Spikes/Swift-Slack/.build/debug/Swift-Slack.o/Sources/fire.swift.o","/Users/AJ/Spikes/Swift-Slack/.build/debug/Swift-Slack.o/Sources/main.swift.o","-target","x86_64-apple-macosx10.10","-Xlinker","-all_load","-g","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk","/Users/AJ/Spikes/Swift-Slack/.build/debug/Curassow.a","/Users/AJ/Spikes/Swift-Slack/.build/debug/Commander.a","/Users/AJ/Spikes/Swift-Slack/.build/debug/Inquiline.a","/Users/AJ/Spikes/Swift-Slack/.build/debug/Nest.a","-L/usr/local/lib"]
+    description: "Linking Executable:  .build/debug/Swift-Slack"

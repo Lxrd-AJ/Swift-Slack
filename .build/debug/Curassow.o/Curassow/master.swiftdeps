@@ -1,0 +1,13 @@
+version: "Apple Swift version 2.2-dev (LLVM 3ebdbb2c7e, Clang f66c5bb67b, Swift 42591f7cba)"
+options: "9cbfcc8a2222be1feb095c1845dfeb30"
+build_time: [509288892, 820707000]
+inputs:
+  "/Users/AJ/Spikes/Swift-Slack/Packages/Curassow-0.2.3/Sources/Arbiter.swift": [509288880, 0]
+  "/Users/AJ/Spikes/Swift-Slack/Packages/Curassow-0.2.3/Sources/Currasow.swift": [509288880, 0]
+  "/Users/AJ/Spikes/Swift-Slack/Packages/Curassow-0.2.3/Sources/Data.swift": [509288877, 0]
+  "/Users/AJ/Spikes/Swift-Slack/Packages/Curassow-0.2.3/Sources/FDSet.swift": [509288877, 0]
+  "/Users/AJ/Spikes/Swift-Slack/Packages/Curassow-0.2.3/Sources/HTTPParser.swift": [509288877, 0]
+  "/Users/AJ/Spikes/Swift-Slack/Packages/Curassow-0.2.3/Sources/Logger.swift": [509288880, 0]
+  "/Users/AJ/Spikes/Swift-Slack/Packages/Curassow-0.2.3/Sources/Signals.swift": [509288880, 0]
+  "/Users/AJ/Spikes/Swift-Slack/Packages/Curassow-0.2.3/Sources/Socket.swift": [509288880, 0]
+  "/Users/AJ/Spikes/Swift-Slack/Packages/Curassow-0.2.3/Sources/Worker.swift": [509288880, 0]

@@ -1,0 +1,1 @@
+.build/debug/Swift-Slack

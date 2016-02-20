@@ -1,0 +1,17 @@
+{
+  "": {
+    "swift-dependencies": "/Users/AJ/Spikes/Swift-Slack/.build/debug/Swift-Slack.o/Swift-Slack/master.swiftdeps"
+  },
+  "/Users/AJ/Spikes/Swift-Slack/Sources/fire.swift": {
+    "dependencies": "/Users/AJ/Spikes/Swift-Slack/.build/debug/Swift-Slack.o/Swift-Slack/fire.d",
+    "object": "/Users/AJ/Spikes/Swift-Slack/.build/debug/Swift-Slack.o/Sources/fire.swift.o",
+    "swiftmodule": "/Users/AJ/Spikes/Swift-Slack/.build/debug/Swift-Slack.o/Swift-Slack/fire~partial.swiftmodule",
+    "swift-dependencies": "/Users/AJ/Spikes/Swift-Slack/.build/debug/Swift-Slack.o/Swift-Slack/fire.swiftdeps"
+  },
+  "/Users/AJ/Spikes/Swift-Slack/Sources/main.swift": {
+    "dependencies": "/Users/AJ/Spikes/Swift-Slack/.build/debug/Swift-Slack.o/Swift-Slack/main.d",
+    "object": "/Users/AJ/Spikes/Swift-Slack/.build/debug/Swift-Slack.o/Sources/main.swift.o",
+    "swiftmodule": "/Users/AJ/Spikes/Swift-Slack/.build/debug/Swift-Slack.o/Swift-Slack/main~partial.swiftmodule",
+    "swift-dependencies": "/Users/AJ/Spikes/Swift-Slack/.build/debug/Swift-Slack.o/Swift-Slack/main.swiftdeps"
+  }
+}

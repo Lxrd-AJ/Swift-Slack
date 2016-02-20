@@ -1,0 +1,12 @@
+version: "Apple Swift version 2.2-dev (LLVM 3ebdbb2c7e, Clang f66c5bb67b, Swift 42591f7cba)"
+options: "69604889b492cd4e3873596f2e0405f0"
+build_time: [509288891, 180409000]
+inputs:
+  "/Users/AJ/Spikes/Swift-Slack/Packages/Commander-0.4.1/Sources/ArgumentConvertible.swift": [509288886, 0]
+  "/Users/AJ/Spikes/Swift-Slack/Packages/Commander-0.4.1/Sources/ArgumentDescription.swift": [509288886, 0]
+  "/Users/AJ/Spikes/Swift-Slack/Packages/Commander-0.4.1/Sources/ArgumentParser.swift": [509288886, 0]
+  "/Users/AJ/Spikes/Swift-Slack/Packages/Commander-0.4.1/Sources/Command.swift": [509288886, 0]
+  "/Users/AJ/Spikes/Swift-Slack/Packages/Commander-0.4.1/Sources/CommandRunner.swift": [509288886, 0]
+  "/Users/AJ/Spikes/Swift-Slack/Packages/Commander-0.4.1/Sources/Commands.swift": [509288886, 0]
+  "/Users/AJ/Spikes/Swift-Slack/Packages/Commander-0.4.1/Sources/CommandType.swift": [509288886, 0]
+  "/Users/AJ/Spikes/Swift-Slack/Packages/Commander-0.4.1/Sources/Group.swift": [509288886, 0]

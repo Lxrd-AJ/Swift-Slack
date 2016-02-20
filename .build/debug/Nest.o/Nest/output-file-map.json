@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/AJ/Spikes/Swift-Slack/.build/debug/Nest.o/Nest/master.swiftdeps"
+  },
+  "/Users/AJ/Spikes/Swift-Slack/Packages/Nest-0.2.1/Sources/Nest.swift": {
+    "dependencies": "/Users/AJ/Spikes/Swift-Slack/.build/debug/Nest.o/Nest/Nest.d",
+    "object": "/Users/AJ/Spikes/Swift-Slack/.build/debug/Nest.o/Sources/Nest.swift.o",
+    "swiftmodule": "/Users/AJ/Spikes/Swift-Slack/.build/debug/Nest.o/Nest/Nest~partial.swiftmodule",
+    "swift-dependencies": "/Users/AJ/Spikes/Swift-Slack/.build/debug/Nest.o/Nest/Nest.swiftdeps"
+  }
+}

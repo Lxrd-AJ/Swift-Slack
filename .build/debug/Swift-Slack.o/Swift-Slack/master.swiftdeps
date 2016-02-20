@@ -1,0 +1,6 @@
+version: "Apple Swift version 2.2-dev (LLVM 3ebdbb2c7e, Clang f66c5bb67b, Swift 42591f7cba)"
+options: "ea612500a5aeab98b18493f44b6078aa"
+build_time: [509288928, 326205000]
+inputs:
+  "/Users/AJ/Spikes/Swift-Slack/Sources/fire.swift": [509288923, 0]
+  "/Users/AJ/Spikes/Swift-Slack/Sources/main.swift": [509288923, 0]
